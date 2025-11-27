@@ -34,6 +34,13 @@ prev.onclick = function(){
     showSlider();
 }
 
+//auto slider
+
+let refreshInterval = setInterval(() =>{
+    next.click();
+}, 3000)
+
+
 function showSlider(){
     let itemActiveOld = document.querySelector('.slider .list .item.active');
     
@@ -42,4 +49,11 @@ function showSlider(){
     items[itemActive].classList.add('active');
 
 
+    clearInterval(refreshInterval);
+
+let refreshInterval = setInterval(() =>{
+    next.click();
+}, 3000)
 }
+
+
