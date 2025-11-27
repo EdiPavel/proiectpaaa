@@ -38,7 +38,7 @@ prev.onclick = function(){
 
 let refreshInterval = setInterval(() =>{
     next.click();
-}, 6000)
+}, 5000)
 
 
 function showSlider(){
@@ -53,7 +53,7 @@ function showSlider(){
 
 let refreshInterval = setInterval(() =>{
     next.click();
-}, 3000)
+}, 5000)
 }
 
 
