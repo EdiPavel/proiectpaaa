@@ -40,9 +40,19 @@ body{
 }
 
 #header a{
-    display: inline-block;
     text-decoration: none;
     color: white;
+}
+
+#header a div{
+        display:inline-block;
+        justify-content: center;
+        width: fit-content;
+        float:inline-end;
+}
+
+#header div{
+    padding: 20px;
 }
 
 .splash{
