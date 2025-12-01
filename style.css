@@ -34,9 +34,15 @@ body{
     z-index: 100;
 }
 
-#header img{
-    
+#header_c{
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#header a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
 }
 
 .splash{
