@@ -1,63 +1,82 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+ rel="stylesheet"><!-- font monsserat -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a17cb46a55.js"></script>
 </head>
 <body>
-    <div id="content_contact">
-        <form action="">
-
-            <div class="elem_contact">
-                <label for="nume">Nume complet <span>*</span></label>
-
-                <div class="input_div">
-                    <input required type="text" id="nume" type="nume">
+    <div id="contact_content">
+    
+        <div id="contact_container">
+            <form action="" id="contact_left">
+                <div id="contact_title">
+                    <h2>Contactati-ne!</h2>
+                    <hr>
                 </div>
-            </div>
 
-            <div class="elem_contact">
-                <label for="numecomp">Nume companie <span>*</span></label>
 
-                <div class="input_div">
-                    <input required type="text" id="numecomp" type="numecomp">
+                <div class="elem_contact">
+                    <label for="nume">Nume complet <span>*</span></label>
+
+                    <div class="input_div">
+                        <input required type="text" id="nume" type="nume">
+                    </div>
                 </div>
-            </div>
 
-            <div class="elem_contact">
-                <label for="nrtel">Nr. de telefon <span>*</span></label>
+                <div class="elem_contact">
+                    <label for="numecomp">Nume companie <span>*</span></label>
 
-                <div class="input_div">
-                    <input required type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="nrtel" type="nrtel" placeholder="0765123456">
+                    <div class="input_div">
+                        <input required type="text" id="numecomp" type="numecomp">
+                    </div>
                 </div>
-            </div>
 
-            <div class="elem_contact">
-                <label for="email">Adresa de email <span>*</span></label>
+                <div class="elem_contact">
+                    <label for="nrtel">Nr. de telefon <span>*</span></label>
 
-                <div class="input_div">
-                    <input required type="email" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="email" type="email">
+                    <div class="input_div">
+                        <input required type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="nrtel" type="nrtel" placeholder="0765123456">
+                    </div>
                 </div>
-            </div>
 
-            <div class="elem_contact">
-                <label for="subiect">Subiect <span>*</span></label>
+                <div class="elem_contact">
+                    <label for="email">Adresa de email <span>*</span></label>
 
-                <div class="input_div">
-                    <input required type="text" id="subiect" type="subiect">
+                    <div class="input_div">
+                        <input required type="email" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="email" type="email">
+                    </div>
                 </div>
-            </div>
 
-            <div class="elem_contact">
-                <label for="mesaj">Mesaj <span>*</span></label>
+                <div class="elem_contact">
+                    <label for="subiect">Subiect <span>*</span></label>
 
-                <div class="input_div">
-                    <textarea id="mesaj" type="mesaj"></textarea>
+                    <div class="input_div">
+                        <input required type="text" id="subiect" type="subiect">
+                    </div>
                 </div>
+
+                <div class="elem_contact">
+                    <label for="mesaj">Mesaj <span>*</span></label>
+
+                    <div class="input_div">
+                        <textarea id="mesaj" type="mesaj"></textarea>
+                    </div>
+                </div>
+            </form>
+
+            <div id="contact_right">
+
             </div>
-
-
-
-        </form>
-
+        </div>
     </div>
 </body>
