@@ -235,9 +235,9 @@ body{
 
 /* cod pt pagina de contact */
 
-#contact_content
+body
 {
-    
+    background-image: url("/images/contact\ background.png");
 }
 
 #contact_container
