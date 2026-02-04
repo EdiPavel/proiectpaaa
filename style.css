@@ -290,6 +290,7 @@ nav{
 }
 
 /* cod pt pagina de contact */
+
 html, #contact_body {
     height: 100%;
     margin: 0;
@@ -319,6 +320,15 @@ html, #contact_body {
     flex-direction: column;
     align-items: start;
     gap: 20px;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 #contact_title
@@ -347,8 +357,34 @@ html, #contact_body {
     padding-left: 25px;
     font-weight: 500;
     color: #666;
+    background-color: rgb(11, 0, 11);
+    border: 2px solid #ccc;
     border-radius: 50px;
 }
+
+.elem_contact .input_div input:focus , textarea:focus
+{
+    border: 2px solid rgb(84, 4, 4);
+}
+
+button
+{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    background:linear-gradient(270deg,rgb(11, 0, 11),rgb(72, 0, 0));
+    color: #ccc;
+    gap:10px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+
+/*##################################### Sfarsit contact ###############################################*/
+
 
 .container{
     width: 100%;
