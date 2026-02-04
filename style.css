@@ -351,16 +351,30 @@ html, #contact_body {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .container{
     width: 100%;
     height: 60vh;
     padding: 0 8%;
 }
 =======
+=======
+>>>>>>> Stashed changes
 .elem_contact .input_div input , textarea:focus
 {
     border: 2px solid;
 }
+<<<<<<< Updated upstream
+=======
+
+.elem_contact .input_div textarea
+{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+>>>>>>> Stashed changes
 
 .elem_contact .input_div textarea
 {
