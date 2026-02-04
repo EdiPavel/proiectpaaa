@@ -55,5 +55,3 @@ let refreshInterval = setInterval(() =>{
     next.click();
 }, 5000)
 }
-
-

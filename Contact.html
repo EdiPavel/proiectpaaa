@@ -26,16 +26,13 @@
                 <input type="hidden" name="access_key" value="edd9e256-502e-43eb-9036-e0d5edc6284a">
 
 
-                <div class="elem_contact">
-                    <label for="nume">Nume client <span>*</span></label>
+                <div class="elem_contact" id="randnume">
+                    <label for="nume">Nume client</label>
 
                     <div class="input_div">
                         <input required type="text" id="nume" name="nume">
                     </div>
-                </div>
-
-                <div class="elem_contact">
-                    <label for="numecomp">Nume companie <span>*</span></label>
+                    <label for="numecomp">Nume companie</label>
 
                     <div class="input_div">
                         <input required type="text" id="numecomp" name="numecomp">
@@ -43,7 +40,7 @@
                 </div>
 
                 <div class="elem_contact">
-                    <label for="nrtel">Nr. de telefon <span>*</span></label>
+                    <label for="nrtel">Nr. de telefon</label>
 
                     <div class="input_div">
                         <input required type="tel" pattern="[0-9]{10}" id="nrtel" 
@@ -52,7 +49,7 @@
                 </div>
 
                 <div class="elem_contact">
-                    <label for="email">Adresa de email <span>*</span></label>
+                    <label for="email">Adresa de email</label>
 
                     <div class="input_div">
                         <input required type="email" id="email" name="email">
@@ -60,13 +57,14 @@
                 </div>
 
                 <div class="elem_contact">
-                    <label for="mesaj">Mesaj <span>*</span></label>
+                    <label for="mesaj">Mesaj</label>
 
                     <div class="input_div">
-                        <textarea id="mesaj" name="mesaj"></textarea>
+                        <textarea id="mesaj" name="mesaj" required></textarea>
                     </div>
                 </div>
 
+                <p class="text_avertizare" id="errorMessage" style="display: none;">Toate casutele trebuiesc completate inainte de a apasa "Trimite"</p>
                 <button type="submit">Trimite</button>
             </form>
 
@@ -75,4 +73,6 @@
             </div>
         </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
