@@ -589,10 +589,30 @@ width: 100%;
 }
 
 .Automatizare{
-    width: 100%;
-    height: 100vh;
-    padding: 0 8%;
+    padding: 50px 40px;
+    text-align: center;
 }
+
+.Automatizare h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.Automatizare p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+    color: white;
+}
+
+.Automatizare img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 
 /* de aici e codul pt footer */
 
