@@ -14,7 +14,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#contact_body, #servicii_page, #page_incendii { /* img de fundal */
+body { /* img de fundal */
     background-image: url("images/contact_background.png");
     min-height: 100vh;
     width: 100%;
