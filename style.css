@@ -1194,3 +1194,43 @@ hr{
 }
 
 /*#############################################Terminat instalatii_sanitare########################################################*/
+
+/*#############################################start instalatii_hvac###################################################*/
+
+/* --- STILURI SPECIFICE HVAC --- */
+
+#hvac_page {
+    background-color: black;
+}
+
+.grid-hvac {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.grid-hvac img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.5s ease;
+}
+
+.grid-hvac img:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3);
+}
+
+.galerie-hvac h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/*#############################################Terminat instalatii_sanitare#######################################*/
