@@ -258,21 +258,18 @@ nav{
     }
 }
 
-/* --- BUTOANE MUTATE JOS --- */
 .arrows {
     position: absolute;
-    bottom: 50px; /* Distanța de jos */
+    bottom: 50px;
     
-    /* Centrare Orizontală Perfectă */
     left: 50%;
     transform: translateX(-50%);
     
     z-index: 100;
     display: flex;
-    gap: 15px; /* Spațiul dintre butoane */
+    gap: 15px;
 }
 
-/* Stilul butoanelor rămâne același (Glassmorphism) */
 .arrows button {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -297,8 +294,6 @@ nav{
     transform: scale(1.1);
     border-color: rgba(255, 77, 77, 0.5);
 }
-
-/* cod pt pagina de contact */
 
 html, #contact_body {
     height: 100%;
@@ -698,7 +693,6 @@ footer {
     letter-spacing: 1px;
 }
 
-/* Contact Info - Aliniere mai bună */
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -815,7 +809,7 @@ hr {
 }
 
 .container_detalii {
-    padding: 80px 8% 100px; /* Spatiu sus pentru nav, margini laterale */
+    padding: 80px 8% 100px;
     min-height: 80vh;
 }
 
@@ -904,20 +898,20 @@ hr {
 .proiect-card {
     position: relative;
     border-radius: 15px;
-    overflow: hidden; /* Taie imaginea care iese din margini la zoom */
+    overflow: hidden;
     background: #1a1a1a;
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 
 .proiect-card .img-box {
     width: 100%;
-    height: 300px; /* Inaltime fixa pentru uniformitate */
+    height: 300px;
 }
 
 .proiect-card .img-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Important: nu deformeaza pozele tale */
+    object-fit: cover;
     transition: transform 0.6s ease;
 }
 
@@ -936,7 +930,7 @@ hr {
 
 /* Efect Hover */
 .proiect-card:hover .img-box img {
-    transform: scale(1.1); /* Zoom usor pe poza */
+    transform: scale(1.1);
 }
 
 .proiect-card:hover .proiect-info {
@@ -1128,7 +1122,6 @@ hr {
 
 /*##########################################Despre noi####################################################################*/
 .container_about {
-    /* Glassmorphism un pic mai întunecat pentru contrast bun cu textul */
     background: rgba(0, 0, 0, 0.4); 
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -1137,21 +1130,19 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
     
-    /* Dimensiuni și centrare */
     width: 90%;
-    max-width: 1000px; /* Nu îl lăsăm să fie prea lat, ca să se citească ușor */
+    max-width: 1000px;
     margin: 140px auto 100px;
-    padding: 60px 40px; /* Padding generos interior */
+    padding: 60px 40px;
 }
 
-/* --- TITLU CENTRAL --- */
 .about-header {
     text-align: center;
     margin-bottom: 60px;
 }
 
 .about-header h1 {
-    font-size: 3rem; /* Titlu mare */
+    font-size: 3rem;
     color: #ff4d4d;
     text-transform: uppercase;
     font-weight: 700;
@@ -1159,7 +1150,6 @@ hr {
     letter-spacing: 2px;
 }
 
-/* Linia roșie de sub titlu */
 .underline-center {
     width: 80px;
     height: 5px;
@@ -1168,44 +1158,40 @@ hr {
     border-radius: 10px;
 }
 
-/* --- LAYOUT VERTICAL --- */
 .about-flex {
     display: flex;
-    flex-direction: column; /* Elementele curg de sus în jos */
-    align-items: center;    /* Totul centrat pe axa paginii */
+    flex-direction: column; 
+    align-items: center;
 }
 
-/* --- TEXTUL AERISIT (Stil Articol) --- */
 .about-text {
     width: 100%;
-    color: #e6e6e6;        /* Alb ușor gri pentru confort vizual */
-    font-size: 1.2rem;     /* Font puțin mai mare */
-    line-height: 2.2;      /* FOARTE AERISIT (spațiu mare între rânduri) */
-    text-align: justify;   /* Aliniere la ambele margini (ca într-o carte) */
+    color: #e6e6e6;
+    font-size: 1.2rem;
+    line-height: 2.2;
+    text-align: justify;
 }
 
-/* Spațiere între paragrafe */
 .about-text p {
     margin-bottom: 35px;
-    text-indent: 40px; /* Alineat la început de paragraf (opțional, arată elegant) */
+    text-indent: 40px;
 }
 
-/* Lista cu bife - Stil modern */
 .about-list {
     list-style: none;
-    margin: 40px auto;     /* Centrată vertical cu spațiu sus/jos */
+    margin: 40px auto;
     padding: 30px 40px;
-    background: rgba(255, 255, 255, 0.05); /* Cutie subtilă în jurul listei */
-    border-left: 4px solid #ff4d4d;        /* Accent roșu în stânga */
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #ff4d4d;
     border-radius: 0 15px 15px 0;
-    max-width: 800px;      /* Lista nu se întinde pe tot ecranul */
+    max-width: 800px;
 }
 
 .about-list li {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
-    font-weight: 600;      /* Text puțin mai gros în listă */
+    font-weight: 600;
     color: #fff;
 }
 
@@ -1215,11 +1201,10 @@ hr {
     font-size: 1.3rem;
 }
 
-/* --- IMAGINEA LA BAZA PAGINII --- */
 .about-image {
     width: 100%;
-    max-width: 500px;      /* O limităm să nu fie uriașă */
-    margin-top: 50px;      /* Distanță mare față de text */
+    max-width: 500px;
+    margin-top: 50px;
     position: relative;
 }
 
@@ -1228,15 +1213,14 @@ hr {
     height: auto;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.7); /* Umbră puternică de profunzime */
+    box-shadow: 0 20px 50px rgba(0,0,0,0.7);
     transition: transform 0.4s ease;
 }
 
 .about-image img:hover {
-    transform: scale(1.02); /* Efect subtil de zoom la mouse */
+    transform: scale(1.02);
 }
 
-/* --- RESPONSIVE (Mobil) --- */
 @media (max-width: 768px) {
     .container_about {
         width: 95%;
@@ -1250,7 +1234,7 @@ hr {
     .about-text {
         font-size: 1rem;
         line-height: 1.8;
-        text-align: left; /* Pe mobil e mai ușor de citit aliniat stânga */
+        text-align: left;
     }
     
     .about-text p {
@@ -1366,7 +1350,7 @@ hr {
 .foto-card img {
     width: 100%;
     height: 250px;
-    object-fit: cover; /* Pastreaza pozele aliniate chiar daca au rezolutii diferite */
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
 }
