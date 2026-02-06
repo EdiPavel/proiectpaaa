@@ -162,10 +162,6 @@ nav{
     align-items: center;
 }
 
-.splash img{
-    margin-left: 150px;
-}
-
 .splash.display-none{
     position: fixed;
 
